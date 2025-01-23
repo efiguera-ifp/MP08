@@ -1,0 +1,120 @@
+:root{
+    --color1: red;
+    --color2: yellow;
+    --color3: orange;
+    --color4: cyan;
+    --color5: limegreen;
+}
+
+@font-face {
+    font-family: 'BORIAS';
+    src: url('../fonts/borias/BORIASRegular.eot');
+    src: url('../fonts/borias/BORIASRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/borias/BORIASRegular.woff2') format('woff2'),
+        url('../fonts/borias/BORIASRegular.woff') format('woff'),
+        url('../fonts/borias/BORIASRegular.ttf') format('truetype'),
+        url('../fonts/borias/BORIASRegular.svg#BORIASRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html{
+    font-size: 32px;
+}
+
+h1{ 
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'BORIAS';
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+p{
+    padding: 1rem;
+    background: lightgreen;
+    font-family: 'BORIAS';
+    font-weight: normal;
+    font-style: normal;
+    background: var(--color3);
+    
+}
+/*-----movil----*/
+@media screen and (max-width:480px) {
+
+    body{ 
+        background: red;
+    
+    }
+
+    h1{
+        font-size: 1rem;
+        background: var(--color2);
+    }
+
+
+}
+/*----Tablet----*/
+@media screen and (min-width:481px) and (max-width:1279px) {
+
+    body{ 
+        background: lightskyblue;
+    
+    }
+
+    h1{
+        font-size: 2rem;
+        background: var(--color4);
+    }
+
+    
+}
+
+/*---ordenador---*/
+
+@media screen and (min-width:1280px)  {
+
+    body{ 
+        background: lightcoral;
+    
+    }
+    
+    h1{
+        font-size: 4rem;
+    }
+
+    p{
+        columns: 2;
+        cursor: zoom-in;
+    }
+}
+
+.progress{ 
+    
+    z-index: 10000;
+    height: 12px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color5);
+    scale: 0 1;
+    animation: analizador linear;
+    animation-timeline:scroll() ;
+    -o-animation-timeline: scroll() ;
+    -moz-animation-timeline: scroll() ;
+    -webkit-animation-timeline: scroll() ;
+    transform-origin: left;
+}
+
+@keyframes analizador {
+    to {
+        scale: 1 1;
+
+
+    }
+}
