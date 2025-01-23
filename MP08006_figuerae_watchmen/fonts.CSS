@@ -1,0 +1,20 @@
+html {
+    height: 100%;
+}
+
+body {
+     
+
+    text-align: center; 
+    background-image: repeating-radial-gradient(circle farthest-corner at 10% 20%, rgba(222,168,248,1) 0%, rgba(168,222,248,1) 21%, rgba(189,250,205,1) 35%, rgba(243,250,189,1) 52%, rgba(250,227,189,1) 66%, rgba(248,172,172,1) 90%, rgba(254,211,252,1) 99%);
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-color: rgba(0,0,0,0);
+        
+    }
+    
+    img{
+        width: 10% ;
+        height: 10%;
+    }

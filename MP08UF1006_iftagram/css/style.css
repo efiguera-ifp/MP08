@@ -1,0 +1,189 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header{
+    height:166px;
+    background-color:;
+}
+
+nav{
+    height:180px;
+    background-color:;
+}
+
+.history{
+    border-radius: 50%;
+}
+
+article{
+}
+
+.contenidor{
+    width:1716px;
+    margin: 0 auto;
+    overflow:hidden;
+    text-align: center;
+}
+
+.entrada{
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    margin: 18px;
+    float: left;
+}
+
+.reaccions{
+    height: 84px;
+}
+
+.cercle{
+    width: 80px;
+    height:80px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 28px;
+    padding: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px coral;
+
+    background-image:url(../img/gif.gif);
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.cercle:hover{
+
+    opacity: 80%;
+}
+
+.fotoautor{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px coral;
+
+    background-image:url(../img/gif.gif);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    float: left;
+    
+
+}
+
+.autor{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 900;
+    font-size: 25px;
+
+
+}
+
+.moment{
+    width: 203px;
+   
+}
+
+.izq{
+    height: 0px;
+    width: 50px;
+    margin: 0px;
+    float: left;
+    background-color: aquamarine;
+}
+
+.der{
+    height: 50px;
+    margin: 0;
+    float: right;
+
+}
+
+.comentari{
+    height: 40px ;
+    line-height: 40px;
+    font-weight: 900;
+    font-size: 24px;
+    width: 180px ;
+    float: left;
+
+}
+
+.like{
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+.mes{
+    height: 40px ;
+    font-size: 30px;
+    line-height: 30px;
+    width: 40px;
+    float: left;
+
+}
+
+.home{
+    width: 208px;
+    height: 39px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(../img/photoshop_09.jpg);
+    margin: 50px 0 0 0;
+    float: left;
+}
+
+.perfil{
+    width: 208px;
+    height: 30px;
+    margin: 50px 0 0 0;
+    float: left;
+    background-color: black;
+    display: inline-block;
+}
+
+.menu{
+    width: 208px;
+    height: 39px;
+    margin: 50px 460px 0 460px;
+    float: left;
+    background-color: black;
+    display: inline-block;
+
+}
+
+.menu li{
+    width: 32px;
+    height: 32px;
+    background-color: blueviolet;
+    margin: 3px 8px;
+    display: inline-block;
+    float: left;
+
+}
+
+.menu .inici{
+    background-image: url(../img/photoshop_11.jpg);
+    background-position: -6px -2px;
+}
+
+.menu .cerca{
+    background-image: url(../img/photoshop_11.jpg);
+    background-position: -174px -2px;
+
+}
+
+.menu .reels{
+    background-image: url(../img/photoshop_11.jpg);
+    background-position: -256px -2px;
+}

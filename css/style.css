@@ -1,0 +1,262 @@
+*{
+    padding:0;
+    margin:0;
+    position: relative;
+}
+
+  
+
+html, body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #EFDEC0;
+    
+}
+
+div{
+
+}
+
+nav ul{
+    position: fixed;
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    z-index: 5000;
+    opacity: 100%;
+}
+
+.barra{
+    background: rgba(255, 124, 53, 0.414);
+}
+
+li{
+    float: left;
+    margin: 30px;
+    display: inline-block;
+    color:black;
+    font-size: 20px;
+    bottom: 15px;
+    opacity: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+.pagina{
+    height: 100%;
+    overflow: hidden;
+}
+
+/*--------P1-------------*/
+
+.nombre{
+    height: 1150px;
+}
+
+.nom{
+    background-image: url(../img/nom_porfolio.png);
+        background-repeat: no-repeat;
+        background-size: 903px;
+        width: 870px;
+        height: 371px;
+        top: 412px;
+        left: 0px;
+        margin: 0 auto;
+}
+
+h1{
+    padding-top:100px;
+    text-align: center;
+    position:absolute;
+    display: block;
+    top:50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    bottom: -192px;
+
+}
+
+/*--------Flores-------------*/
+    .flor {
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 150px;
+        bottom: -20px;
+    }
+
+
+    .f4{
+        background-image: url(../img/prototipo_porfolio4.png);
+        height: 183px;
+        width: 151px;
+        left: 180px;    
+    }
+
+    .f3{
+        background-image: url(../img/prototipo_porfolio3.png);
+        height: 282px;
+        width: 146px; 
+        left: 0px;
+    }
+
+    .f5{
+        background-image: url(../img/prototipo_porfolio5.png);
+        height: 321px;
+        width: 130px;  
+        left: 360px;
+    }
+
+    .f6{
+        background-image: url(../img/prototipo_porfolio6.png);
+        height: 180px;
+        width: 154px;  
+        left: 1350px;
+    }
+
+    .f7{
+        background-image: url(../img/prototipo_porfolio7.png);
+        height: 314px;
+        width: 130px; 
+        left: 1730px;
+    }
+
+    .f8{
+        background-image: url(../img/prototipo_porfolio8.png);
+        height: 173px;
+        width: 130px;  
+        left: 1530px;
+    }
+
+    .f9{
+        background-image: url(../img/prototipo_porfolio9.png);
+        height: 250px;
+        width: 130px; 
+        left: 0px;
+    }
+
+    .f10{
+        background-image: url(../img/prototipo_porfolio10.png);
+        height: 250px;
+        width: 130px; 
+        left: 0px;
+    }
+
+    .flor12{
+        background-image: url(../img/prototipo_porfolio12.png);
+        height: 250px;
+        width: 130px; 
+        left: 0px;
+    }
+
+    
+
+    
+
+
+/*--------Flores-------------*/
+
+
+
+/*--------P2-------------*/
+.p2{
+   background: black ;
+   overflow: hidden;
+}
+
+.p2 .lista{
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+}
+
+.p2 li{
+    float: none;
+    display: block;
+    background-color: rgba(255, 0, 0, 0.987);
+    margin: 0px 0px 90px 0px;
+    color: white;
+    font-size: 27px;;
+    height: 0px;
+    top: 150px;
+    
+}
+
+.rosa{
+    background-image: url(../img/prototipo_porfolio2.png);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    height: 1500px;
+    width: 1000px;  
+    left: 50px;
+    position: absolute;
+   
+}
+
+/*-------Hover state-----*/
+
+
+.barra li:after
+{
+  
+	position: absolute;
+	height: 50px;
+	left: -300px;
+	top: 0%;
+	width: 300px;
+    background: linear-gradient(135deg,#FF1D23 0%, #FF1D23 50%,#A2CC9B 50%, #A2CC9B 100%);
+}
+
+
+.barra li:hover
+{
+  background: rgb(255, 111, 0);
+}
+
+
+
+.p2 p:hover
+{
+  background-color: rgb(255, 111, 0);
+  display: inline-block;
+  color: black;
+}
+
+.p2 a:link
+{
+  background-color: rgb(255, 111, 0);
+  display: block;
+  color: black;
+}
+
+
+/*--------P3-------------*/
+
+.p3{
+    overflow: hidden;
+}
+
+.floretone{
+    height: 10px;
+}
+
+.floreton{
+    background-image: url(../img/prototipo_porfolio.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    height: 1105px;
+    width: 969px;
+    margin: 0 auto;
+    margin-top: 180px;
+
+
+}
+
+

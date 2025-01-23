@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:#222 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.barra{
+    height: 50px;
+    width: 2010px;
+    background: black;
+    position: fixed;
+    z-index: 150000000;
+}
+
+.pelis{
+    height: 300px;
+    width: 1500px;
+    background: transparent;
+    margin: 40px 0 0 0px;
+    display: inline-block;
+}
+.p1{
+    height: 500px;
+    margin: 70px 0 0 0;
+}
+
+.redonda{
+    height: 175px;
+    width: 130px;
+    background: lightcoral;
+    margin: 5px 5px 0px 10px;
+    border-radius:5%;
+    display: inline-block;
+    position: relative;
+}
+
+    .r1{
+        background-image: url(../img/1982Koyaanisqatsi.jpg);
+    }
+    .r2{
+        background-image: url(../img/2004YTuQueSabes.jpg);
+    }
+    .r3{
+        background-image: url(../img/2005Earthlings.jpg);
+    }
+    .r4{
+        background-image: url(../img/2007Helvetica.jpg);
+    }
+    .r5{
+        background-image: url(../img/2007Sicko.jpg);
+    }
+    .r6{
+        background-image: url(../img//2008Zeitgeist2.jpg);
+    }
+    .r7{
+        background-image: url(../img/2009ArtAndCopy.jpg);
+    }
+
+    .r8{
+        background-image: url(../img/2009RipARemixManifesto.jpg);
+    }
+    .r9{
+        background-image: url(../img/2009Home.jpg);
+    }
+    .r10{
+        background-image: url(../img/2011LaDoctrinaDeShock.jpg);
+    }
+    .r11{
+        background-image: url(../img/2011LaDoctrinaDeShock.jpg);
+    }
+    .r12{
+        background-image: url(../img/1982Koyaanisqatsi.jpg);
+    }
+    .r13{
+        background-image: url(../img/2012TheActOfKilling.jpg);
+    }
+    .r14{
+        background-image: url(../img/1982Koyaanisqatsi.jpg);
+    }
+    .r15{
+        background-image: url(../img/1982Koyaanisqatsi.jpg);
+    }
+    .r16{
+        background-image: url(../img/1982Koyaanisqatsi.jpg);
+    }
+    .r17{
+        background: green
+    }
+
+    .r18{
+        background: green;
+    }
+
+    .r19{
+        background: red;
+    }
+
+    .r20{
+        background: red;
+    }
+
+    .r21{
+        background: green
+    }
+    .r22{
+        background: green
+    }
+
+h1{
+    color: #fff;
+    font-size: 22px;
+    margin: px;
+}
+    .titul{
+        position: relative;
+        margin: 0 0 0 10px;
+    }
+
+h2{
+    font-size: 14px;
+    margin: 0px 10px 10px 12px ;
+    color: white;
+}
+
+.base{
+    height: 250px;
+    width: 150px;
+    display: inline-block;
+    margin: 10px 0 10px 10px;
+}
+img{
+    margin: 7px 5px 0 10px;
+}
+
+.redonda:hover{
+    opacity: 50%;
+}
+
+p{
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0px 20px  0px 13px;
+}
+
+    .parra{
+        margin: 0 3px 0 0px;
+        font-size: 12px;
+    }
+
+    .parra:hover{
+        opacity: 50%;
+    }
+
+    .der{
+        margin-left: 150px;
+        position: relative;
+        left:1500px;
+        margin: 0 1px 0 0;
+        font-size: 12px;
+    }
+
+    .der:hover{
+        opacity: 50%;
+    }
+
