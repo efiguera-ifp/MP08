@@ -263,3 +263,70 @@ h1{
 }
 
 
+/*---responsive--*/
+
+@media screen and (min-width: 480px){
+
+
+}
+
+@media screen and (max-width: 480px){
+
+    .nom{
+            
+        background-size: 460px;
+        
+    }
+
+    h1{
+       
+        font-size: 30px;
+    }
+
+    li{
+        font-size: 25px;
+    }
+
+    /*------------p2--------*/
+
+    .rosa{
+       
+        background-size: 400px; 
+        top: 500px; 
+    }
+
+    .p2 li{
+            background-color: red;
+            margin: 50px;
+            color:rgb(255, 255, 255);
+            font-size: 25px;
+            left: -50px;
+            top: 10px;
+    }
+
+    .p2 .ul{
+
+            left: 50px;
+            background-color: red;
+    }
+        
+        
+
+    .p2 .lista{
+        position: relative;
+        overflow: hidden;
+        left: 200px;
+    }
+
+/*---------p3------------*/
+
+.floreton{
+
+    background-size: 500px;
+    top: 310px;
+  
+
+
+}
+
+
