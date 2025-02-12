@@ -258,6 +258,25 @@ h1{
 
 }
 
+.insta{
+    background-image: url(../img/prototipo_porfolio_insta-14.png);
+    background-repeat: no-repeat;
+    background-size: 140px;
+    height: 1105px;
+    width: 969px;
+    top: -140px;
+    left: 40px;
+    position: absolute;
+
+
+}
+
+.insta p{
+    left:150px;
+    font-size: 20px;
+    top:70px;
+}
+
 
 /*---responsive--*/
 
