@@ -270,7 +270,8 @@ h1{
 
     .nom{
             
-        background-size: 460px;
+        background-size: 390px;
+        top: 222px;
         
     }
 
@@ -284,13 +285,34 @@ h1{
         margin: 15px;
     }
 
+    /*---------flores_p1------*/
+
+    .flor{
+        background-size: 100px;
+    }
+
+    .f3{
+        top: 480px;
+    }
+
+    .f4{
+        top: 540px;
+        left: 140px;
+    }
+
+    .f5{
+        top: 453px;
+        left: 266px;
+    }
+
 
     /*------------p2--------*/
 
     .rosa{
        
         background-size: 400px; 
-        top: 500px; 
+        top: 64px; 
+        left: 40px;
     }
 
     .p2 li{
@@ -300,6 +322,7 @@ h1{
             font-size: 25px;
             left: -50px;
             top: 10px;
+            color: rgb(255, 115, 0);
     }
 
     .p2 .ul{
@@ -320,8 +343,8 @@ h1{
 
 .floreton{
 
-    background-size: 500px;
-    top: 310px;
+    background-size: 420px;
+    top: 20px;
   
 
 
