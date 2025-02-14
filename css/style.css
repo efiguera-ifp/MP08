@@ -264,11 +264,9 @@ h1{
     background-size: 140px;
     height: 1105px;
     width: 969px;
-    top: -140px;
-    left: 40px;
+    top: 0px;
+    left: 0px;
     position: absolute;
-
-
 }
 
 .insta p{
